@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+
+.cv {
+    width: 8.5in; /* Ukuran kertas A4 */
+    min-height: 11in;
+    background-color: white;
+    padding: 40px 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    /* Mengubah layout menjadi Flexbox */
+    display: flex;
+    /* Menyebarkan elemen anak ke sisi berlawanan */
+    justify-content: space-between;
+    /* Menyelaraskan elemen secara vertikal di tengah */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Foto-Profil {
+    width: 150px;
+    height: 150px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 0;
+    text-align: left;
+}
+
+.BAGIAN {
+    margin-bottom: 20px;
+}
+
+.Bagian {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 0;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info .icon {
+    margin-right: 10px;
+}
+
+.experience-item h4 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.experience-item p {
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.experience-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.experience-item li::before {
+    content: "• ";
+}
